@@ -1,6 +1,5 @@
 name: GitHub CI
 on: [pull_request, workflow_dispatch]
-
 jobs:
   build-project:
     name: Build the project
@@ -27,4 +26,3 @@ jobs:
         with:
           name: build-artifact
           path: ./
-          
