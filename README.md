@@ -12,7 +12,7 @@
 
    npm install
 
-3. Edit config file(.env)
+3. Edit config file (.env)
 
    add TELEGRAM token and OPENAI token
 
