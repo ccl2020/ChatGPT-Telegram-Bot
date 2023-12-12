@@ -1,9 +1,8 @@
-name: Build Project
+name: GitHub CI
 on: [pull_request, workflow_dispatch]
-
 jobs:
   build-project:
-    name: Build Project
+    name: Build the project
     runs-on: ubuntu-latest
     steps:
       # Checkout code
@@ -27,4 +26,3 @@ jobs:
         with:
           name: build-artifact
           path: ./
-          
